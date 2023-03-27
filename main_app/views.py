@@ -4,6 +4,7 @@ from django.shortcuts import render
 cats = [
   {'name': 'Lolo', 'breed': 'tabby', 'description': 'furry little demon', 'age': 3},
   {'name': 'Sachi', 'breed': 'calico', 'description': 'gentle and loving', 'age': 2},
+  {'name': 'Kilgore', 'breed': 'ferrel', 'description': 'cuddle bug', 'age': 0},
 ]
 
 # Create your views here:
