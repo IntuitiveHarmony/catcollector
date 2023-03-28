@@ -6,3 +6,7 @@ class Cat(models.Model):
     breed = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
     age = models.IntegerField()
+    
+    # This will make the object instance be the name of the cat
+    def __str__(self):
+        return self.name
